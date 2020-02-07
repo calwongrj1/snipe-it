@@ -288,6 +288,7 @@ echo ""
 echo "  Welcome to Snipe-IT Inventory Installer for CentOS, Fedora, Debian and Ubuntu!"
 echo ""
 shopt -s nocasematch
+distro=debian
 case $distro in
   *ubuntu*)
     echo "  The installer has detected $distro version $version codename $codename."
